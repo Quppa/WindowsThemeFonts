@@ -12,9 +12,9 @@ using System.Windows;
 [assembly: AssemblyTitle("WindowsThemeFonts")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("quppa.net")]
+[assembly: AssemblyCompany("Quppa.net")]
 [assembly: AssemblyProduct("WindowsThemeFonts")]
-[assembly: AssemblyCopyright("Copyright © Quppa 2011")]
+[assembly: AssemblyCopyright("Copyright © David Warner 2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
