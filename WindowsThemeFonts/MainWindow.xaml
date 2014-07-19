@@ -1,0 +1,42 @@
+﻿<Window x:Class="WindowsThemeFonts.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Windows Theme Fonts" Height="350" Width="525" WindowStartupLocation="CenterScreen" SizeToContent="WidthAndHeight" ResizeMode="CanResize" SnapsToDevicePixels="True"
+        Loaded="Window_Loaded">
+    <StackPanel Margin="5" TextOptions.TextFormattingMode="Display">
+        <TextBlock Name="MainInstructionTextBlock" Margin="0,5">Main Instruction Text</TextBlock>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="5" />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <TextBlock Grid.Row="0" Grid.Column="0">Font Family: </TextBlock>
+            <TextBlock Grid.Row="0" Grid.Column="2" Name="MainInstructionFontFamilyTextBlock"></TextBlock>
+
+            <TextBlock Grid.Row="1" Grid.Column="0">Font Size:</TextBlock>
+            <TextBlock Grid.Row="1" Grid.Column="2" Name="MainInstructionFontSizeTextBlock"></TextBlock>
+
+            <TextBlock Grid.Row="2" Height="15" VerticalAlignment="Top">Font Weight:</TextBlock>
+            <TextBlock Grid.Row="2" Grid.Column="2" Name="MainInstructionFontWeightTextBlock"></TextBlock>
+
+            <TextBlock Grid.Row="3" Grid.Column="0">Foreground:</TextBlock>
+            <TextBlock Grid.Row="3" Grid.Column="2" Name="MainInstructionForegroundTextBlock"></TextBlock>
+
+            <TextBlock Grid.Row="4" Grid.Column="0">Font Fallback:</TextBlock>
+            <TextBlock Grid.Row="4" Grid.Column="2" Name="MainInstructionFontFallbackTextBlock"></TextBlock>
+
+            <TextBlock Grid.Row="5" Grid.Column="0">Colour Fallback:</TextBlock>
+            <TextBlock Grid.Row="5" Grid.Column="2" Name="MainInstructionColourFallbackTextBlock"></TextBlock>
+        </Grid>
+        <Button HorizontalAlignment="Right" Padding="3" Margin="0,5,0,0" Click="Button_Click">Update</Button>
+    </StackPanel>
+</Window>
